@@ -18,26 +18,25 @@ Angular: 13.3.0
 ... animations, cli, common, compiler, compiler-cli, core, forms
 ... platform-browser, platform-browser-dynamic, router
 
-@angular-devkit/architect       0.1303.0
-@angular-devkit/build-angular   13.3.0
-@angular-devkit/core            13.3.0
-@angular-devkit/schematics      13.3.0
-@schematics/angular             13.3.0
-rxjs                            7.5.5
-typescript                      4.6.3
+@angular-devkit/architect 0.1303.0
+@angular-devkit/build-angular 13.3.0
+@angular-devkit/core 13.3.0
+@angular-devkit/schematics 13.3.0
+@schematics/angular 13.3.0
+rxjs 7.5.5
+typescript 4.6.3
 
 ## [2] Version upgrades after project was created
 
 N/A
 
-------------------------------------
+---
 
-# List of steps performed: 
+# List of steps performed:
 
 ### 1 - Create project
 
 `ng new NgApp --routing --style=scss`
-
 
 ### 2 - Add angular material
 
@@ -45,14 +44,16 @@ N/A
 
 selections: Indigo/Pink, Global Typography (No), Browser Animations (Yes)
 
-### 3 - Add ng bootstrap
+### 3 - Add ng bootstrap (installs standard bootstrap)
 
 `ng add @ng-bootstrap/ng-bootstrap` [NG Bootstrap - Angular powered Bootstrap widgets](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)
 
 Note: This installs bootstrap as well as a dependemcy (verified by inspecting package.json)
 
-------------------------------------
+---
+
 Default README
+
 # NgApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.

@@ -1,6 +1,8 @@
-<div>
-  <h4>abc</h4>
-  <button class="btn btn-primary">Test</button>
-  <router-outlet></router-outlet>
-  <h4>xyz</h4>
-</div>
+<nav *ngIf="showNavbar">
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active">Home</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+    <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
