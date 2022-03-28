@@ -1,3 +1,58 @@
+# Versions
+
+## [1] When project was created
+
+`node -v`
+v16.14.0
+
+`npm -v`
+8.5.5
+
+`ng version`
+Angular CLI: 13.3.0
+Node: 16.14.0
+Package Manager: npm 8.5.5
+OS: win32 x64
+
+Angular: 13.3.0
+... animations, cli, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+@angular-devkit/architect       0.1303.0
+@angular-devkit/build-angular   13.3.0
+@angular-devkit/core            13.3.0
+@angular-devkit/schematics      13.3.0
+@schematics/angular             13.3.0
+rxjs                            7.5.5
+typescript                      4.6.3
+
+## [2] Version upgrades after project was created
+
+N/A
+
+------------------------------------
+
+# List of steps performed: 
+
+### 1 - Create project
+
+`ng new NgApp --routing --style=scss`
+
+
+### 2 - Add angular material
+
+`ng add @angular/material` [Getting Started with Angular Material](https://material.angular.io/guide/getting-started)
+
+selections: Indigo/Pink, Global Typography (No), Browser Animations (Yes)
+
+### 3 - Add ng bootstrap
+
+`ng add @ng-bootstrap/ng-bootstrap` [NG Bootstrap - Angular powered Bootstrap widgets](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap)
+
+Note: This installs bootstrap as well as a dependemcy (verified by inspecting package.json)
+
+------------------------------------
+Default README
 # NgApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
